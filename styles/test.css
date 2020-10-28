@@ -19,12 +19,12 @@ main {
 	overflow: hidden;
 }
 	main .left_block {
-		background-color: red;
 		width: 50%;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		background: url(../images/1_question.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 		main .left_block .mirror_elem {
 			display: flex;
@@ -108,7 +108,7 @@ main {
 			flex-direction: column;
 			width: 70%;
 		}
-			main .right_block .question_content #result_container .title {
+			main .right_block .question_content #result_container #result_title {
 				font-size: 18px;
 				line-height: 26px;
 				font-family: OpenSansBold;
@@ -116,7 +116,7 @@ main {
 				text-align: start;
 				margin-bottom: 24px;
 			}
-			main .right_block .question_content #result_container .description {
+			main .right_block .question_content #result_container #result_description {
 				font-size: 16px;
 				line-height: 24px;
 				margin-bottom: 40px;
