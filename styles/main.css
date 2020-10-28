@@ -27,6 +27,7 @@ main {
 		height: 480px;
 		background-color: #004373;
 		border: 2px solid #FFFFFF;
+		border-right: none;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -60,12 +61,8 @@ main {
 					color: #7DBFFF;
 					font-family: OpenSansBold;
 				}
-				main .main_block .description .text a:last-child {
-					color: #FFFFFF;
-				}
-			main .main_block .description .start_button {
-				margin-left: 100px;
-			}
+				main .main_block .description .text a:last-child { color: #FFFFFF; }
+			main .main_block .description .start_button { margin-left: 100px; }
 
 footer {
 	height: 10vh;
@@ -92,6 +89,6 @@ footer {
 			margin: 10px;
 		}
 			footer .social .item:hover { background-color: #FFFFFF; }
-	footer .madeby { display: flex; }
-		footer .madeby p:first-child { color: #7DBFFF; }
-		footer .madeby p:last-child { color: #FFFFFF; }
+	footer .madeby { display: flex;}
+		footer .madeby .text { color: white; }
+		footer .madeby .text a { color: #7DBFFF; }

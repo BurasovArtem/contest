@@ -1,13 +1,13 @@
 @font-face{
 	font-family: 'OpenSans';
-	src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+	src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face{
 	font-family: 'OpenSansBold';
-	src: url('fonts/OpenSans-Bold.ttf') format('truetype');
+	src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -29,6 +29,9 @@ button {
 	height: 60px;
 	font-size: 16px;
 	font-family: OpenSansBold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 	button:hover {
 		background-color: #FFFFFF;
