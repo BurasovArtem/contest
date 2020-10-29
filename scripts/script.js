@@ -21,10 +21,12 @@ function createQuestion(count) {
 			output_promo = document.querySelector('#output_promo'),
 			output_time = document.querySelector('#output_time');
 
+		left_block.style.backgroundImage = 'none';	
 		mirror.style.display = 'none';
 		helm.style.display = 'none';
 		right_footer.style.display = 'none';
 		output_container.style.display = 'flex';
+		left_block.style.backgroundSize = '100% 100%';
 
 		if (sum <= 2) {
 			output_title.innerText = output[3].title;
@@ -35,16 +37,18 @@ function createQuestion(count) {
 		} 
 		else if (sum <= 4) {
 			output_title.innerText = output[2].title;
-			output_description.innerText = output[2].description;
-			output_promo.innerText = output[2].promo;
-			output_time.innerText = output[2].time;
+			output_description.innerHTML = output[2].description;
+			output_promo.innerHTML = output[2].promo;
+			output_time.innerHTML = output[2].time;
+			left_block.style.backgroundSize = '175% 100%';
 			left_block.style.backgroundImage = 'url(./images/2_result.png)';
 		} 
 		else {
 			output_title.innerText = output[1].title;
-			output_description.innerText = output[1].description;
-			output_promo.innerText = output[1].promo;
-			output_time.innerText = output[1].time;
+			output_description.innerHTML = output[1].description;
+			output_promo.innerHTML = output[1].promo;
+			output_time.innerHTML = output[1].time;
+			left_block.style.backgroundSize = '125% 100%';
 			left_block.style.backgroundImage = 'url(./images/1_result.png)';
 		}
 	} else {

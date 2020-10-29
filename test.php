@@ -26,7 +26,7 @@
 			<img class="logo_lifehacker" src="images/logo_lifehacker.svg">
 			<img class="logo_cordiant" src="images/logo_cordiant.svg">
 		</header>
-		<main>
+		<main id="main">
 			<div class="left_block">
 				<div class="mirror_elem">
 					<img src="images/mirror_question.png" id="mirror">
@@ -46,9 +46,9 @@
 								<p>Пройти еще раз</p>
 							</div>
 							<div class="social">
-								<a href="#" class="item"><img src="images/social/twitter.svg"></a>
-								<a href="#" class="item"><img src="images/social/vk.svg"></a>
-								<a href="#" class="item"><img src="images/social/facebook.svg"></a>
+								<a href="#" class="item" target="blank"><img src="images/social/twitter.svg"></a>
+								<a href="#" class="item" target="blank"><img src="images/social/vk.svg"></a>
+								<a href="#" class="item" target="blank"><img src="images/social/facebook.svg"></a>
 							</div>
 						</div>
 					</div>
@@ -60,14 +60,14 @@
 						<button>Купить шины со скидкой</button>
 						<div class="output_footer">
 							<a class="team" href="">Команда проекта</a>
-							<p class="link"><a href="https://lifehacker.ru/">Лайфхакер</a>&nbsp | &nbsp<a href="https://cordiant.ru/">Cordiant</a>&nbsp © 2020</p>
+							<p class="link"><a href="https://lifehacker.ru/" target="blank">Лайфхакер</a>&nbsp | &nbsp<a href="https://cordiant.ru/" target="blank">Cordiant</a>&nbsp © 2020</p>
 						</div>
 					</div>
 				</div>
 
 				<div class="question_content"></div>
 				<div class="right_footer">
-					<a href="https://lifehacker.ru/">Лайфхакер</a>&nbsp | &nbsp<a href="https://cordiant.ru/">Cordiant</a>&nbsp © 2020
+					<a href="https://lifehacker.ru/" target="blank">Лайфхакер</a>&nbsp | &nbsp<a href="https://cordiant.ru/" target="blank">Cordiant</a>&nbsp © 2020
 				</div>
 			</div>
 		</main>
