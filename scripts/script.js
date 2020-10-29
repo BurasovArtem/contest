@@ -128,7 +128,7 @@ function createQuestion(count) {
 		let itemData = data[count];
 
 		for(i in itemData) {
-			questions.childNodes[i-1].innerText = itemData[i].question;
+			questions.childNodes[i-1].innerHTML = itemData[i].question;
 			questions.childNodes[i-1].setAttribute('value', itemData[i].point);
 			questions.childNodes[i-1].setAttribute('onclick', "openResult("+i+", "+ count +")");
 		}

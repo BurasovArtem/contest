@@ -28,7 +28,7 @@
 		<main>
 			<div class="main_block">
 				<div class="title">
-					<p>Узнаете ли вы Росиию</p>
+					<p>Узнаете ли вы Россию</p>
 					<p>по дорогам?</p>
 				</div>
 				<div class="description">

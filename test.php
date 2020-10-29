@@ -59,7 +59,10 @@
 						</div>
 						<button>Купить шины со скидкой</button>
 						<div class="output_footer">
-							<a class="team" href="">Команда проекта</a>
+							<a class="team" href="#">
+								Команда проекта
+								<img class="team_popup" src="images/team.svg" />
+							</a>
 							<p class="link"><a href="https://lifehacker.ru/" target="blank">Лайфхакер</a>&nbsp | &nbsp<a href="https://cordiant.ru/" target="blank">Cordiant</a>&nbsp © 2020</p>
 						</div>
 					</div>
