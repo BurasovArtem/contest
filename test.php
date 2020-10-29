@@ -34,10 +34,40 @@
 				<img class="helm" src="images/helm.png">
 			</div>
 			<div class="right_block">
-				
-				<div class="question_content" style="display: none"></div>
+				<div class="output">
+					<div class="top_output_content">
+						<div>
+							<p id="output_title"></p>
+							<p id="output_description"></p>
+						</div>
+						<div class="button_block">
+							<div onclick="location.reload()" class="back_button">
+								<img src="images/reload.svg">
+								<p>Пройти еще раз</p>
+							</div>
+							<div class="social">
+								<a href="#" class="item"><img src="images/social/twitter.svg"></a>
+								<a href="#" class="item"><img src="images/social/vk.svg"></a>
+								<a href="#" class="item"><img src="images/social/facebook.svg"></a>
+							</div>
+						</div>
+					</div>
+					<div class="bottom_output_content">
+						<div>
+							<p id="output_promo"></p>
+							<p id="output_time"></p>
+						</div>
+						<button>Купить шины со скидкой</button>
+						<div class="output_footer">
+							<a class="team" href="">Команда проекта</a>
+							<p class="link"><a href="https://lifehacker.ru/">Лайфхакер</a>&nbsp | &nbsp<a href="https://cordiant.ru/">Cordiant</a>&nbsp © 2020</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="question_content"></div>
 				<div class="right_footer">
-					<a href="#">Лайфхакер</a>&nbsp | &nbsp<a href="#">Cordiant</a>&nbsp © 2020
+					<a href="https://lifehacker.ru/">Лайфхакер</a>&nbsp | &nbsp<a href="https://cordiant.ru/">Cordiant</a>&nbsp © 2020
 				</div>
 			</div>
 		</main>

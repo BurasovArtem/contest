@@ -32,7 +32,7 @@
 					<p>по дорогам?</p>
 				</div>
 				<div class="description">
-					<p class="text">Мы составили этот тест вместе с производителем шин <a href="#">Cordiant</a>, чтобы вы проверили, сможете ли отличить российские дороги от остальных. Активируйте внутреннего Шерлока и вперёд! Пройдёте тест до конца — получите <a>скидку 15%</a> на зимнюю резину.</p>
+					<p class="text">Мы составили этот тест вместе с производителем шин <a href="https://cordiant.ru/">Cordiant</a>, чтобы вы проверили, сможете ли отличить российские дороги от остальных. Активируйте внутреннего Шерлока и вперёд! Пройдёте тест до конца — получите <a>скидку 15%</a> на зимнюю резину.</p>
 					<button class="start_button" onclick="location.href = 'test.php'">Пройти тест!</button>
 				</div>
 			</div>
@@ -44,7 +44,7 @@
 				<a href="#" class="item"><img src="images/social/facebook.svg"></a>
 			</div>
 			<div class="madeby">
-				<p class="text"><a href="#">Лайфхакер</a> | <a href="#">Cordiant</a> © 2020</p>
+				<p class="text"><a href="https://lifehacker.ru/">Лайфхакер</a> | <a href="https://cordiant.ru/">Cordiant</a> © 2020</p>
 			</div>
 		</footer>
 	</body>

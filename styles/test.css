@@ -122,6 +122,10 @@ main {
 				margin-bottom: 40px;
 				max-width: 350px;
 			}
+				main .right_block .question_content #result_container #result_description a {
+					font-family: OpenSansBold;
+					color: #A4EFEC;
+				}
 		main .right_block .right_footer {
 			color: white;
 			display: flex;
@@ -132,3 +136,131 @@ main {
 				color: #7DBFFF;
 				font-family: OpenSansBold;
 			}
+		main .right_block .output {
+			display: none;
+			flex-direction: column;
+			height: 100%;
+			justify-content: space-between;
+			color: white;
+		}
+			main .right_block .output .top_output_content,
+			main .right_block .output .bottom_output_content {
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				height: 100%;
+
+			}
+			main .right_block .output .top_output_content {
+				border-bottom: 2px solid #FFFFFF;
+				padding: 0 10%;
+			}
+				main .right_block .output .top_output_content #output_title {
+					font-size: 35px;
+					line-height: 40px;
+					font-family: OpenSansBold;
+					margin-bottom: 24px;
+				}
+				main .right_block .output .top_output_content #output_description {
+					font-size: 18px;
+					line-height: 26px;
+					font-family: OpenSansBold;
+					margin-bottom: 32px;
+				}
+				main .right_block .output .top_output_content .button_block {
+					display: flex;
+					justify-content: space-around;
+				}
+					main .right_block .output .top_output_content .button_block .back_button {
+						display: flex;
+						align-items: center;
+						cursor: pointer;
+					}
+						main .right_block .output .top_output_content .button_block .back_button img {
+							width: 40px;
+							height: 40px;
+						}
+						main .right_block .output .top_output_content .button_block .back_button p {
+							margin: 20px;
+							font-size: 16px;
+							line-height: 24px;
+							color: #7DBFFF;
+							font-family: OpenSansBold;
+						}
+					main .right_block .output .top_output_content .button_block .social {
+						display: flex;
+					}
+						main .right_block .output .top_output_content .button_block .social a {
+							width: 40px;
+							height: 40px;
+							background-color: #7DBFFF;
+							border-radius: 50%;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							cursor: pointer;
+							margin: 10px;
+						}
+							main .right_block .output .top_output_content .button_block .social a:hover {
+								background-color: #FFFFFF;
+							}
+							main .right_block .output .top_output_content .button_block .social a img {
+
+							}
+			main .right_block .output .bottom_output_content {
+				padding: 0 10%;
+			}
+				main .right_block .output .bottom_output_content #output_promo {
+					font-size: 16px;
+					line-height: 24px;
+					margin-bottom: 40px;
+				}
+					main .right_block .output .bottom_output_content #output_promo a {
+						color: #7DBFFF;
+						font-family: OpenSansBold;
+					}
+					main .right_block .output .bottom_output_content #output_promo .tires_name {
+						font-family: OpenSansBold;
+						font-weight: bold;
+					}
+					main .right_block .output .bottom_output_content #output_promo .promo_code {
+						color: #A4EFEC;						
+						background-color: #002B57;
+						border-radius: 3px;
+						font-family: OpenSansBold;
+						padding: 2px;
+					}
+				main .right_block .output .bottom_output_content #output_time {
+					font-size: 16px;
+					line-height: 24px;
+					margin-bottom: 40px;
+				}
+					main .right_block .output .bottom_output_content #output_time .promo_date {
+						font-size: 18px;
+						line-height: 24px;
+						font-family: OpenSansBold;
+						color: #A4EFEC;
+					}
+				main .right_block .output .bottom_output_content button {
+					margin-bottom: 70px;
+				}
+				main .right_block .output .bottom_output_content .output_footer {
+					display: flex;
+					justify-content: space-between;
+				}
+					main .right_block .output .bottom_output_content .output_footer .team {
+						font-size: 12px;
+						line-height: 15px;
+						color: #7DBFFF;
+						cursor: pointer;
+						font-family: OpenSansBold;
+					}
+					main .right_block .output .bottom_output_content .output_footer .link {
+						color: #FFFFFF;
+						font-size: 12px;
+						line-height: 15px;
+					}
+						main .right_block .output .bottom_output_content .output_footer .link a {
+							color: #7DBFFF;
+							font-family: OpenSansBold;
+						}
