@@ -25,7 +25,7 @@ function createQuestion(count) {
 
 		if (sum <= 2) { finishTest(3, 100); } 
 		else if (sum <= 4) { finishTest(2, 150); } 
-		else { finishTest(1, 100); }
+		else { finishTest(1, 150); }
 	} else {
 		let question_content = document.createElement('div'),
 			counter_container = document.createElement('div'),
