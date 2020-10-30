@@ -39,9 +39,9 @@
 		</main>
 		<footer>
 			<div class="social">
-				<a href="#" class="item" target="blank"><img src="images/social/twitter.svg"></a>
-				<a href="#" class="item" target="blank"><img src="images/social/vk.svg"></a>
-				<a href="#" class="item" target="blank"><img src="images/social/facebook.svg"></a>
+				<a href="https://twitter.com/ru_lh?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="item" target="blank"><img src="images/social/twitter.svg"></a>
+				<a href="https://vk.com/lifehacker_ru" class="item" target="blank"><img src="images/social/vk.svg"></a>
+				<a href="https://www.facebook.com/lifehacker.ru" class="item" target="blank"><img src="images/social/facebook.svg"></a>
 			</div>
 			<div class="madeby">
 				<p class="text"><a href="https://lifehacker.ru/" target="blank">Лайфхакер</a> | <a href="https://cordiant.ru/" target="blank">Cordiant</a> © 2020</p>

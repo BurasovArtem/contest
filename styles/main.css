@@ -91,4 +91,7 @@ footer {
 			footer .social .item:hover { background-color: #FFFFFF; }
 	footer .madeby { display: flex;}
 		footer .madeby .text { color: white; }
-		footer .madeby .text a { color: #7DBFFF; }
+		footer .madeby .text a { 
+			color: #7DBFFF;
+			font-family: OpenSansBold;
+		}
