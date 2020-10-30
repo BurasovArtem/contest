@@ -40,7 +40,6 @@ main {
 	main .right_block {
 		width: 100%;
 		background: linear-gradient(0deg, #00508A 0%, #123A60 96.67%);
-		border-left: 2px solid white;
 		display: flex;
 		justify-content: space-between;
 		flex-direction: column;
