@@ -88,18 +88,6 @@ function createQuestion(count) {
 
 		result_container.style.display = 'none';
 
-
-		// debug
-		// let out = document.querySelector('.output'),
-		// 	footer = document.querySelector('.right_footer'),
-		// 	question = document.querySelector('.question_content')
-		// question_container.style.display = 'none';
-		// counter_container.style.display = 'none';
-		// footer.style.display = 'none';
-		// out.style.display = 'flex';
-		// question.style.height = 0;
-		// 
-
 		let itemData = data[count];
 
 		for(i in itemData) {
