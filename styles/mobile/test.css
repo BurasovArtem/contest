@@ -8,9 +8,9 @@ header {
 	justify-content: space-between;
 	background: linear-gradient(180deg, #000000 0%, rgba(0, 80, 138, 0) 100%);
 }
-	header .logo_lifehacker { width: 100px; }
-	header .logo_cordiant { width: 150px; }
-	header img { margin: 130px; }
+	header .logo_lifehacker { width: 200px; }
+	header .logo_cordiant { width: 250px; }
+	header img { margin: 50px; }
 
 main {
 	display: flex;
