@@ -269,6 +269,7 @@ main {
 						font-family: OpenSansBold;
 						position: relative;
 					}
+						main .right_block .output .bottom_output_content .output_footer .team:active { color: white; }
 						main .right_block .output .bottom_output_content .output_footer .team:active .team_popup {
 							display: block;
 						}
@@ -289,3 +290,4 @@ main {
 							color: #7DBFFF;
 							font-family: OpenSansBold;
 						}
+							main .right_block .output .bottom_output_content .output_footer .link a:active { color: white; }
