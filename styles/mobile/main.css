@@ -112,3 +112,4 @@ footer {
 			color: #7DBFFF;
 			font-family: OpenSansBold;
 		}
+			footer .madeby .text a:active { color: white; }

@@ -141,6 +141,7 @@ main {
 				color: #7DBFFF;
 				font-family: OpenSansBold;
 			}
+				main .right_block .right_footer a:active { color: white; }
 		main .right_block .output {
 			display: none;
 			flex-direction: column;
