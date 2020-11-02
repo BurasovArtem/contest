@@ -179,7 +179,13 @@ main {
 						align-items: center;
 						cursor: pointer;
 					}
-						main .right_block .output .top_output_content .button_block .back_button img {
+						main .right_block .output .top_output_content .button_block .back_button:active p {
+							color: white;
+						}
+						main .right_block .output .top_output_content .button_block .back_button:active #reload path {
+							fill: white;
+						}
+						main .right_block .output .top_output_content .button_block .back_button .back_icon svg {
 							width: 40px;
 							height: 40px;
 						}

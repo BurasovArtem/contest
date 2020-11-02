@@ -27,6 +27,10 @@ function createQuestion(count) {
 		else if (sum <= 4) { finishTest(2, 150); } 
 		else { finishTest(1, 150); }
 	} else {
+		document.body.classList.add('transition');
+		setTimeout(() => {
+			document.body.classList.remove('transition');
+		}, 1000);
 		let question_content = document.createElement('div'),
 			counter_container = document.createElement('div'),
 			question_counter = document.createElement('p');
